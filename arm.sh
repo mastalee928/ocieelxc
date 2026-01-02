@@ -53,7 +53,7 @@ downimage(){
     case "$num" in
         1)
             if [ ! -f /root/image/alpine3.6.tar.gz ]; then
-                curl -L https://wp.809886.xyz/d/NAT/Alpine3.6.tar.gz?sign=lBDmJznQw6D14KxRvrp98XFont88pFbvSpWxoO3u7vU=:0 -o /root/image/alpine3.6.tar.gz
+                curl -L https://wp.egg.run/api/v4/file/content/pQtz/0/Alpine3.6.tar.gz?download=true&sign=q_SOTpMPc2ZTZSgnjnZAEbDbrsnIJMIXvuDOZln4Nmk%3D%3A1767362190 -o /root/image/alpine3.6.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
@@ -61,7 +61,7 @@ downimage(){
         ;;
         2)
             if [ ! -f /root/image/debian11.tar.gz ]; then
-                curl -L https://drive.usercontent.google.com/download?id=12pvyXUe-cYDpUrDfwQPKyA1Bt4T3QxtS&export=download&authuser=0&confirm=t&uuid=c6c41e42-77d3-4f04-8bb5-0621f288da31&at=ANTm3czsoG6JiwCXeFe2zfxpEhHx:1767343430816 -o /root/image/debian11.tar.gz
+                curl -L https://wp.egg.run/api/v4/file/content/3YUX/0/debian11.tar.gz?download=true&sign=9M6pL1Vp5y-ltZHGFJq6rEL38wOlcAp5trQ_3Ww8syk%3D%3A1767362644 -o /root/image/debian11.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
@@ -77,7 +77,7 @@ downimage(){
         ;;
         4)
             if [ ! -f /root/image/debian12.tar.gz ]; then
-                curl -L https://drive.usercontent.google.com/download?id=1PInrWQvSPBTXw5IiwEIQk2KVBS2q9Twf&export=download&authuser=0&confirm=t&uuid=967eb59f-dc71-4547-8454-63b366cc1c14&at=ANTm3cw76wWPTY2lApv6EYWlmPg1:1767343332750 -o /root/image/debian12.tar.gz
+                curl -L https://wp.egg.run/api/v4/file/content/q3hb/0/debian12.tar.gz?sign=nqbIWLrANW5wJgt8-5c8SNTrIyCsWXdV18N_OwrNHz0%3D%3A1767362553 -o /root/image/debian12.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
