@@ -312,21 +312,7 @@ updateService(){
 }
 
 main(){
-# 替换掉原本 LOGO="..." 和 echo -e "$LOGO" 的部分
-cat <<'EOF'
-  __  __                _            _     __  __   ___ 
- |  \/  |  __ _   ___ | |_   __ _  | |    \ \/ /  / __|
- | |\/| | / _` | (_-< |  _| / _` | | |__   >  <  | (__ 
- |_|  |_| \__,_| /__/  \__| \__,_| |____| /_/\_\  \___|
-                                                       
-  ___           _        _ _                           
- |_ _|_ __  ___| |_ __ _| | | ___ _ __                 
-  | || '_ \/ __| __/ _` | | |/ _ \ '__|                
-  | || | | \__ \ || (_| | | |  __/ |                   
- |___|_| |_|___/\__\__,_|_|_|\___|_|                   
-                                                       
-——————————————————————————————————————————————————
-EOF
+echo "ICBfXyAgX18gICAgICAgICAgICAgICBfICAgICAgICAgICAgXyAgICAgX18gIF9fICAgX19fIAogfCAgXC8gIHwgIF9fIF8gICBfX18gfCB8XyAgIF9fIF8gIHwgfCAgICBcIFwvIC8gIC8gX198CnwgfFwvfCB8IC8gX2AgfCAoXy08IHwgIF98IC8gX2AgfCB8IHxfXyAgID4gIDwgIHwgKF9fIAp8X3wgIHxffCBcX18sX3wgL19fLyAgXF9ffCBcX18sX3wgfF9fX198IC9fL1xfXCAgXF9fX3wKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICBfX18gICAgICAgICAgIF8gICAgICAgIF8gXyAgICAgICAgICAgICAgICAgICAgICAgICAgIAp8XyBfX3xfIF9fICBfX198IHxfIF9fIF98IHwgfCAgX19fIF9fIF9fICAgICAgICAgICAgICAgICAKIHwgfHwgfCAnIFwvIF9fXCBfXy8gX2AgfCB8IHwvIF8gXCBfX3wgICAgICAgICAgICAgICAgIAogfCBfX3wgfCB8IFwgX18gXCB8fCAoXyB8IHwgfCAgX18vIHwgICAgICAgICAgICAgICAgICAKIHxfX198X3wgfF98X19fL1xfXF9fLF98X3xffFxfX198X3wgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCis6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kys6Kw==" | base64 -d
 
 
     _green  "1)LXC镜像下载"
