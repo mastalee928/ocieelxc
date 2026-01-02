@@ -53,7 +53,7 @@ downimage(){
     case "$num" in
         1)
             if [ ! -f /root/image/alpine3.6.tar.gz ]; then
-                curl -L https://wp.809886.xyz/d/NAT/Alpine3.6.tar.gz?sign=lBDmJznQw6D14KxRvrp98XFont88pFbvSpWxoO3u7vU=:0 -o /root/image/alpine3.6.tar.gz
+                curl -L https://wp.egg.run/api/v4/file/content/pQtz/0/Alpine3.6.tar.gz?download=true&sign=q_SOTpMPc2ZTZSgnjnZAEbDbrsnIJMIXvuDOZln4Nmk%3D%3A1767362190 -o /root/image/alpine3.6.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
