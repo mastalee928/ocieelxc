@@ -61,7 +61,7 @@ downimage(){
         ;;
         2)
             if [ ! -f /root/image/debian11.tar.gz ]; then
-                curl -L https://wp.809886.xyz/d/NAT/debian11.tar.gz?sign=n9OpVHWKDeAdoG6bI74_EGP73G7gsydli66CqXGH9zY=:0 -o /root/image/debian11.tar.gz
+                curl -L https://wp.egg.run/api/v4/file/content/3YUX/0/debian11.tar.gz?download=true&sign=9M6pL1Vp5y-ltZHGFJq6rEL38wOlcAp5trQ_3Ww8syk%3D%3A1767362644 -o /root/image/debian11.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
